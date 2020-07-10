@@ -18,11 +18,11 @@ class Vingador extends pessoa{
     }
 
     lutar(){
-        alert(`${this.nome} está lutando usando ${this.poderes[0]}`);
+        alert(`${this.nome} está lutando usando sua armadura`);
     }
 }
 
-const thor = new Vingador('Thor',"1.85","100kg",["Super Força","Raio"],true,true);
+const ironman = new Vingador('Tony Stark',"1.75","100kg","Não tem",true,true);
 
 document.getElementById("lutar").onclick = function(){
     thor.lutar();

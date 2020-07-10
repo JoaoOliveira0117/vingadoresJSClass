@@ -61,14 +61,14 @@ var Vingador = /*#__PURE__*/function (_pessoa) {
   _createClass(Vingador, [{
     key: "lutar",
     value: function lutar() {
-      alert("".concat(this.nome, " est\xE1 lutando usando ").concat(this.poderes[0]));
+      alert("".concat(this.nome, " est\xE1 lutando usando sua armadura"));
     }
   }]);
 
   return Vingador;
 }(pessoa);
 
-var thor = new Vingador('Thor', "1.85", "100kg", ["Super Força", "Raio"], true, true);
+var ironman = new Vingador('Tony Stark', "1.75", "100kg", "Não tem", true, true);
 
 document.getElementById("lutar").onclick = function () {
   thor.lutar();
